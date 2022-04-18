@@ -13,7 +13,7 @@ function init() {
     var geometry = new THREE.SphereGeometry(2, 8, 6);
     //var material = new THREE.MeshBasicMaterial( {color: 0xffff00} );
 
-    const texture = new THREE.TextureLoader().load('textures/ny.jpeg')
+    const texture = new THREE.TextureLoader().load('textures/pexels-photo-1105766.jpeg)
     const material = new THREE.MeshBasicMaterial( { map: texture} );
 
     sphere = new THREE.Mesh( geometry, material );
